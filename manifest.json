@@ -1,6 +1,6 @@
 {
   "manifest_version" : 2,
-  "name" : "bennyrabia",
+  "name" : "Ticket Assigning Tool",
   "description" : "Automatically appends assigned tickets to Google Sheets file. ",
   "version" : "0.1",
   "content_scripts" : [

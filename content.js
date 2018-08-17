@@ -10,7 +10,7 @@
 
 /* ***** */
 //These will be used to pass into sheets. They are null right now, I will fix later.
-var ticketNumber;
+var ticketNumber = "testnumber";
 var ticketAssignee;
 var ticketSubject;
 var ticketCustomerCode;
@@ -65,6 +65,8 @@ if (document.body.contains(document.getElementsByClassName("detailList")[0]))
 		});
 		//console.log("Ticket Number: " + ticketNumber);
 		//console.log("Ticket Assignee: " + userName);
+
+		console.log(this.ticketNumber);
 
 		/** *************************************************************************** **/
 		/** END: Crawl account's salesforce page for information such as customer code. **/
