@@ -1,0 +1,121 @@
+tr.c-rows
+{
+  height: 50px !important;
+}
+.ta-danger
+{
+  background-color: #f2dede;
+  font-weight: bold;
+}
+
+.ta-info
+{
+  background-color: #d9edf7;
+}
+
+.ta-warning
+{
+  background-color: #fcf8e3;
+}
+
+.ta-new
+{
+  font-weight: bold;
+}
+
+.ta-escalated
+{
+  background-color: #BBA3D0;
+}
+
+.ta-customer-approved
+{
+  background-color: #ccffcc;
+  font-weight: bold;
+}
+
+.ta-reopened
+{
+  background-color: #ffdb99;
+  font-weight: bold;
+}
+
+tr.c-rows.ta-danger:hover
+{
+  background-color: #FF7F7F;
+}
+
+tr.c-rows.ta-info:hover
+{
+  background-color: #469AF9;
+}
+
+tr.c-rows.ta-warning:hover
+{
+  background-color: #F9D646;
+}
+
+tr.c-rows.ta-new:hover
+{
+  background-color: #EFF0F0;
+}
+
+tr.c-rows.ta-escalated:hover
+{
+  background-color: #885EAD;
+}
+
+tr.c-rows.ta-customer-approved:hover
+{
+  background-color: #00cc00;
+}
+
+tr.c-rows.ta-reopened:hover
+{
+  background-color: #ffa500;
+}
+
+.ta-cs-validating
+{
+  color: white;
+  background-color: #0052cc;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ta-waiting-for-customer
+{
+  color: white;
+  background-color: #dfe1e6;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ta-wait-for-requirements
+{
+  color: white;
+  background-color: #0052cc;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ta-done
+{
+  color: white;
+  background-color: #00875a;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ta-customer-validating
+{
+  color: white;
+  background-color: #0052cc;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}

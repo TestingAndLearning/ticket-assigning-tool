@@ -1,0 +1,27 @@
+{
+  "manifest_version" : 2,
+  "name" : "bennyrabia",
+  "description" : "Automatically appends assigned tickets to Google Sheets file. ",
+  "version" : "0.1",
+  "content_scripts" : [
+    {
+      "matches" : [ "http://*/*", "https://*/*", "file:///*/*"],
+      "css" : ["content.css"]
+    }
+  ],
+  "permissions": ["tabs", "background", "http://*/*", "https://*/*", "file:///*/*"],
+  "background":
+  {
+    "scripts" : ["background.js"]
+  },
+  "browser_action" :
+  {
+    "default_icon": "off.png",
+    "default_title" : "Icon"
+  },
+  "icons": {
+    "38": "on.png",
+    "38": "off.png"
+  },
+  "web_accessible_resources": ["content.css"]
+}
